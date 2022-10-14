@@ -28,6 +28,7 @@ public class UserCreator {
         List<Role> roleUser = new ArrayList<>();
 
         roleAdmin.add(role1);
+        roleAdmin.add(role2);
         roleUser.add(role2);
 
         User user1 = new User("Ad", "Min", 100, "admin@mail.ru", "admin", roleAdmin);
